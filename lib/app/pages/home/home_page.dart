@@ -10,8 +10,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  HomeController controller = HomeController();
-
   @override
   Widget build(BuildContext context) {
     return GetBuilder<HomeController>(builder: (controller) {
