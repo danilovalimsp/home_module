@@ -1,3 +1,3 @@
 library home_module;
 
-export 'package:home_module/app/home_page.dart';
+export 'package:home_module/app/modules/app_modules.dart';

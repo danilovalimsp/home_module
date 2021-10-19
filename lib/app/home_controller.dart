@@ -8,6 +8,6 @@ class HomeController {
   }
 
   getPosts() {
-    _repository.getPosts();
+    //_repository.getPosts();
   }
 }
