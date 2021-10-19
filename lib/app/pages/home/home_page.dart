@@ -27,6 +27,13 @@ class _HomePageState extends State<HomePage> {
                 onPressed: controller.getPosts,
                 child: Text("Get Posts"),
               ),
+              Obx(
+                () => Visibility(
+                    visible: controller.isLoading.value,
+                    child: Center(
+                      child: CircularProgressIndicator(),
+                    )),
+              ),
             ],
           ),
         ),

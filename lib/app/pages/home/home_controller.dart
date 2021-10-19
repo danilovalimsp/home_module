@@ -3,10 +3,17 @@ import 'package:core_app/core_app.dart';
 
 class HomeController extends GetxController {
   ApiRepository _repository;
+  RxBool isLoading = false.obs;
 
   HomeController(this._repository);
 
-  getPosts() {
+  getPosts() async {
+    isLoading.value = true;
+
     _repository.getPosts();
+
+    await Future.delayed(Duration(seconds: 3));
+
+    isLoading.value = false;
   }
 }

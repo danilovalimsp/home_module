@@ -28,6 +28,10 @@ dependencies:
     git:
       url: https://github.com/danilovalimsp/commons_app.git   
 
+  core_app:
+    git:
+      url: https://github.com/danilovalimsp/core_app.git   
+
   home_module:  
     path: ../
 

@@ -53,11 +53,11 @@ packages:
     source: git
     version: "0.0.1"
   core_app:
-    dependency: transitive
+    dependency: "direct main"
     description:
       path: "."
       ref: HEAD
-      resolved-ref: d3653ab407e11f48ff2541fe4168d43c57f1cde0
+      resolved-ref: "2aa8e9549439605abf646d43e4e67250ef1aca9f"
       url: "https://github.com/danilovalimsp/core_app.git"
     source: git
     version: "0.0.1"
