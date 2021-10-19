@@ -1,7 +1,3 @@
 library home_module;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'app/home_page.dart';
