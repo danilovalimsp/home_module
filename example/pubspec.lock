@@ -44,14 +44,21 @@ packages:
     source: hosted
     version: "1.15.0"
   core_app:
-    dependency: "direct main"
+    dependency: transitive
     description:
       path: "."
       ref: HEAD
-      resolved-ref: fa1639dca44538c0e87a6c3c6da563458e0a80a1
+      resolved-ref: d3653ab407e11f48ff2541fe4168d43c57f1cde0
       url: "https://github.com/danilovalimsp/core_app.git"
     source: git
     version: "0.0.1"
+  cupertino_icons:
+    dependency: "direct main"
+    description:
+      name: cupertino_icons
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.3"
   dio:
     dependency: transitive
     description:
@@ -76,6 +83,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  home_module:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "0.0.1"
   http_parser:
     dependency: transitive
     description:
